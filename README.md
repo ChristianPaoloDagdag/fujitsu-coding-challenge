@@ -4,6 +4,11 @@ Fujitsu Coding Challenge
 
 An simple responsive web application following the instructions given by Fujitsu.
 
+## Packages and Modules Used
+ - eslint (airbnb config)
+ - react-youtube
+ - styled-components
+
 ## Project Screen Shot(s)
 
 ![image](https://user-images.githubusercontent.com/82559364/212537206-20e1ec53-e83a-4597-bcc3-08e7ada52079.png)
