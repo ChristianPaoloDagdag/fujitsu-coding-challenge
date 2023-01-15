@@ -6,6 +6,7 @@ import InfoSection from './InfoSection';
 import MoreInfoSection from './MoreInfoSection';
 import JoinUsSection from './JoinUsSection';
 import DateTableSection from './DateTableSection';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <MoreInfoSection />
       <JoinUsSection />
       <DateTableSection />
+      <Footer />
     </Container>
   );
 }
