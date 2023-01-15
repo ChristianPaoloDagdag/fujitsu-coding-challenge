@@ -5,6 +5,7 @@ import VideoSection from './VideoSection';
 import InfoSection from './InfoSection';
 import MoreInfoSection from './MoreInfoSection';
 import JoinUsSection from './JoinUsSection';
+import DateTableSection from './DateTableSection';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <InfoSection />
       <MoreInfoSection />
       <JoinUsSection />
+      <DateTableSection />
     </Container>
   );
 }
