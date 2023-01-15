@@ -1,11 +1,13 @@
 import React from 'react';
 import Container from './styles';
-import TopComponent from './TopComponent';
+import PageTitle from './PageTitle';
+import VideoSection from './VideoSection';
 
 export default function Home() {
   return (
     <Container>
-      <TopComponent />
+      <PageTitle />
+      <VideoSection />
     </Container>
   );
 }
