@@ -1,8 +1,11 @@
 import React from 'react';
 import * as S from './styles';
+import Logo from '../../assets/Logo/Logo.png';
 
-export default function Footer() {
+export default function Header() {
   return (
-    <S.Container>Copyright 1994 - 2022 FUJITSU</S.Container>
+    <S.Container>
+      <S.Logo src={Logo} alt="Fujitsu" />
+    </S.Container>
   );
 }

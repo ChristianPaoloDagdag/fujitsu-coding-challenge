@@ -7,10 +7,12 @@ import MoreInfoSection from './MoreInfoSection';
 import JoinUsSection from './JoinUsSection';
 import DateTableSection from './DateTableSection';
 import Footer from '../../components/Footer';
+import Header from '../../components/Header';
 
 export default function Home() {
   return (
     <Container>
+      <Header />
       <PageTitle />
       <VideoSection />
       <InfoSection />
