@@ -2,6 +2,9 @@ import React from 'react';
 import * as S from './styles';
 import ImageOne from '../../../assets/Background/001.jpg';
 import ImageTwo from '../../../assets/Background/002.jpg';
+import ImageThree from '../../../assets/Background/003.jpg';
+import ImageFour from '../../../assets/Background/004.jpg';
+import ImageFive from '../../../assets/Background/005.jpg';
 
 export default function InfoSection() {
   return (
@@ -45,19 +48,19 @@ export default function InfoSection() {
       </S.ContentTwo>
       <S.ContentThree>
         <S.ContentTreeContent>
-          <S.ContentTreeImage src={ImageOne} />
+          <S.ContentTreeImage src={ImageThree} />
           <S.ContentTreeText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </S.ContentTreeText>
         </S.ContentTreeContent>
         <S.ContentTreeContent>
-          <S.ContentTreeImage src={ImageOne} />
+          <S.ContentTreeImage src={ImageFour} />
           <S.ContentTreeText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </S.ContentTreeText>
         </S.ContentTreeContent>
         <S.ContentTreeContent>
-          <S.ContentTreeImage src={ImageOne} />
+          <S.ContentTreeImage src={ImageFive} />
           <S.ContentTreeText>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </S.ContentTreeText>
