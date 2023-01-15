@@ -3,6 +3,7 @@ import Container from './styles';
 import PageTitle from './PageTitle';
 import VideoSection from './VideoSection';
 import InfoSection from './InfoSection';
+import MoreInfoSection from './MoreInfoSection';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <PageTitle />
       <VideoSection />
       <InfoSection />
+      <MoreInfoSection />
     </Container>
   );
 }
